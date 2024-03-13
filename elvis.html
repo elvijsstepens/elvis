@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RTU Web DEV Test 2 Page</title>
+    <title>More HTML tags</title>
 </head>
 <body>
-    <h1>February 16th Page</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum a, facilis doloribus maxime ratione at quae natus facere modi adipisci hic magnam suscipit odit asperiores cum, numquam molestias eos!</p>
-<h2>Food I like</h2>
+    <header>
+<h1 id="top_h1">More Tag Fun</h1>
+    </header>
+ <main>
+<!-- <hr>    -->
+Link to bottom of the page: <a href="#last_footer">Footer</a>
+ <h2> Brie cheese</h2>
+ <img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjgxLTAxMDEtdi1sMWxnZHgwNC5qcGc.jpg" alt="Cheese" width="200">
+ <h2> Camembert cheese</h2>
+ <img src="cheese.webp" alt="Cheese" width="200">
+ <br>
+ <h2>Map of RTU</h2>
+ <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=24.07689213752747%2C56.949520893391146%2C24.083222150802616%2C56.95450584048508&amp;layer=mapnik" style="border: 1px solid black"></iframe><br><small><a href="https://www.openstreetmap.org/#map=17/56.95201/24.08006">View Larger Map</a></small>
+ <article>
+    <h3>About iframe</h3>
+    <p>You can use <strong>iframe</strong> to add pretty much any external content to your page.
+        Just be careful with the size and the source of the content.
+        Youtube videos, Google Maps, and many other services provide you with an iframe code.</p>
+
+ </article>
+ <h2 id="food">Food I like</h2>
     <ul>
     <li> Potatoes</li>
     <li>Chocolate</li>
@@ -20,6 +38,55 @@
         </ul>
     </li>
 </ul>
-    <footer>Made while crying tests 24 febr (C) 2024</footer>
+<br>
+<h2>My favourite activities</h2>
+<ol start="101">
+    <li>Chess</li>
+    <li>Biking</li>
+    <li>Reading</li>
+</ol>
+
+<h2>My favourite activities 2</h2>
+<ol>
+    <li>Chess</li>
+    <li>Biking</li>
+    <li>Reading</li>
+</ol>
+<hr>
+<a href="https://www.rtu.lv">RTU</a>
+<a href="https://www.rtu.lv" target="_blank">RTU site in a new tab</a>
+<!-- Let's create simple form -->
+<hr>
+<form action="https://www.google.com/search" method="get">
+    <label for="search">Search:</label>
+    <input type="text" id="search" name="q">
+    <input type="submit" value="Search">
+</form>
+<hr>
+<h3>Participants</h3>
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>25</td>
+    </tr>
+    <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+    <td>22</td>
+    </tr>
+</table>
+<hr>
+Link to the top of the page: <a href="#top_h1">Top Header</a>
+<hr>
+
+ </main>   
+ 
+<footer id="last_footer">Made with Love (C) 2024</footer>
 </body>
 </html>
